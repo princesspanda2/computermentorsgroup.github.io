@@ -77,3 +77,33 @@ h1 {
 	font-weight: 700;
 	margin-bottom: 8px;
 }
+
+.project-link {
+	border: 3px solid #38b8ea;
+	background-color: #38b8ea;
+	padding: 0 22px;
+	line-height: 37px;
+	height: 40px;
+	font-weight: 800;
+	color: #fff;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 14px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.project-link:hover {
+    transition: all 0.3s ease 0s;
+	background-color: #edf8ff;
+	text-decoration: inherit;
+	color: #38b8ea;
+}
+
+ul {
+	margin-top: 15px;
+}
+
+li {
+	margin-bottom: 4px;
+}
